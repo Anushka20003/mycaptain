@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+int a=60, b=40;
+
+printf("Before swap a=%d b=%d",a,b);
+
+a=a+b;//a=100(60+40)
+
+b=a-b;//b=60(100-40)
+
+a=a-b;//a=40(100-60)
+
+printf("\nAfter swap a=%d b=%d",a,b);
+
+return 0;
+
+}
